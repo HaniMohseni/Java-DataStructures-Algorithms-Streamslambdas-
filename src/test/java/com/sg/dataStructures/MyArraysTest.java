@@ -1,4 +1,4 @@
-package com.sg;
+package com.sg.dataStructures;
 
 import org.junit.jupiter.api.Test;
 
