@@ -11,9 +11,8 @@ public class MyStackImpl implements MyStack{
         System.out.println(stack);
 
     }
-
     @Override
-    public void removeRequest(Deque<String> stack) {
+    public void removeRequest(Deque<Integer> stack) {
         stack.pop();
     }
 

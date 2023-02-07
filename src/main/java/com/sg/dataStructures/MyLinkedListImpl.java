@@ -38,12 +38,6 @@ public class MyLinkedListImpl implements MyLinkedList{
     }
 
     @Override
-    public void addFirstOfLinkedList(LinkedList<Integer> linkedList) {
-        linkedList.removeFirst();
-
-    }
-
-    @Override
     public void addToIndexOfLinkedList(LinkedList<Integer> linkedList, int item, int index) {
         linkedList.add(index,item);
     }

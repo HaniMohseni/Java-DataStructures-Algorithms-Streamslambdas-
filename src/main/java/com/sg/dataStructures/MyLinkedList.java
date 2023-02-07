@@ -9,7 +9,6 @@ public interface MyLinkedList {
     void addToStartOfLinkedList(LinkedList<Integer> linkedList, int item);
     void addToEndOfLinkedList(LinkedList<Integer> linkedList, int item);
     void removedEndOfLinkedList(LinkedList<Integer> linkedList);
-    void addFirstOfLinkedList(LinkedList<Integer> linkedList);
     void addToIndexOfLinkedList(LinkedList<Integer> linkedList, int item, int index);
 
 }

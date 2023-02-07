@@ -8,9 +8,9 @@ public class MyQueueImpl implements MyQueue{
         System.out.println(queue);
 
     }
-
     @Override
-    public void addToQueue(Queue<Integer> queue, int item) {
+    public void addToQueue(Queue<Integer> queue, Integer item) {
+
         queue.offer(item);
     }
 
