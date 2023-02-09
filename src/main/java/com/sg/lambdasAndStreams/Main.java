@@ -1,6 +1,7 @@
 package com.sg.lambdasAndStreams;
 
 import java.util.Random;
+import java.util.function.IntBinaryOperator;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,11 +23,13 @@ public class Main {
         };
         printMessage2.print();
 
-        Calculator calculator = (int x, int y)->{
+        IntBinaryOperator calculator = (int x, int y)->{
             Random random = new Random();
            int randomNumber = random.nextInt(50);
            return x+y+randomNumber;
         };
+
+        System.out.println(calculator.applyAsInt(1,2));
 
 
     }
