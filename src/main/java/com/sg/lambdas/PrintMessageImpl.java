@@ -1,4 +1,4 @@
-package com.sg.lambdasAndStreams;
+package com.sg.lambdas;
 
 public class PrintMessageImpl implements PrintMessage{
 

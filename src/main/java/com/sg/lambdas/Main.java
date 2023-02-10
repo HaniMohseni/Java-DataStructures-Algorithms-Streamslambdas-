@@ -1,4 +1,4 @@
-package com.sg.lambdasAndStreams;
+package com.sg.lambdas;
 
 import java.util.Random;
 import java.util.function.IntBinaryOperator;

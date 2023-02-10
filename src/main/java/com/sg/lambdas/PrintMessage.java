@@ -1,4 +1,4 @@
-package com.sg.lambdasAndStreams;
+package com.sg.lambdas;
 
 //with functionalInterface annotation I can have just one methode
 @FunctionalInterface

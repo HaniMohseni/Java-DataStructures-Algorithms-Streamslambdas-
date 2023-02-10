@@ -1,4 +1,4 @@
-package com.sg.lambdasAndStreams;
+package com.sg.lambdas;
 
 import org.junit.jupiter.api.Test;
 
