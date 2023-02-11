@@ -26,7 +26,7 @@ public class Planet {
         this.density = density;
     }
 
-    public boolean isHasRing() {
+    public boolean getHasRing() {
         return hasRing;
     }
 

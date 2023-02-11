@@ -13,15 +13,15 @@ public class SolarSystem {
         mercury.setHasRing(false);
         mercury.setNumberOfMoons(0);
 
-        Planet venus = new Planet("venus");
+        Planet venus = new Planet("Venus");
         venus.setDensity(5.24);
         venus.setHasRing(false);
         venus.setNumberOfMoons(0);
 
-        Planet eearth = new Planet("Earth");
-        eearth.setDensity(5.52);
-        eearth.setHasRing(false);
-        eearth.setNumberOfMoons(1);
+        Planet earth = new Planet("Earth");
+        earth.setDensity(5.52);
+        earth.setHasRing(false);
+        earth.setNumberOfMoons(1);
 
         Planet mars = new Planet("Mars");
         mars.setDensity(3.940);
@@ -51,7 +51,7 @@ public class SolarSystem {
 
         planets.add(mercury);
         planets.add(venus);
-        planets.add(eearth);
+        planets.add(earth);
         planets.add(mars);
         planets.add(jupiter);
         planets.add(saturn);
