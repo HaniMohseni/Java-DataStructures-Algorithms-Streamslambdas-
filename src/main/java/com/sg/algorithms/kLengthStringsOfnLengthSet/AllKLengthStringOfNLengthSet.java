@@ -55,9 +55,9 @@ class AllKLengthStringOfNLengthSet {
         int k = 3;
         printAllKLength(set1, k);
 
-        System.out.println("\nSecond Test");
-        char[] set2 = {'a', 'b', 'c', 'd'};
-        k = 1;
-        printAllKLength(set2, k);
+//        System.out.println("\nSecond Test");
+//        char[] set2 = {'a', 'b', 'c', 'd'};
+//        k = 1;
+//        printAllKLength(set2, k);
     }
 }
