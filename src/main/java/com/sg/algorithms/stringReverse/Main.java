@@ -11,7 +11,5 @@ public class Main {
         System.out.println(stringReverse.Reverse2("World"));
         //third Algorithm testing
         System.out.println(stringReverse.ReverseEachWord("Hello World"));
-
-
-    }
+   }
 }
