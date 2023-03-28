@@ -34,6 +34,10 @@ public class FilterEvenNumbers {
                 .toArray();
 
     }
+    public static int[] findEvenNum2(int[]arr1, int[]arr2){
+        IntPredicate isEvenNum = num->num%2==0;
+       return Stream.of(arr1,arr2).flatMapToInt(Arrays::stream).filter(isEvenNum).toArray();
+    }
 
     public static void main(String[] args) {
         int[] arr1 = {-9, 3, 2, -16,5,8};
@@ -41,7 +45,6 @@ public class FilterEvenNumbers {
         Arrays.stream(findEvenNums(arr1,arr2)).forEach(System.out::println);
         System.out.println();
         Arrays.stream(findEvenNums2(arr1,arr2)).forEach(System.out::println);
-
 
     }
 }
