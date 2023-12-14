@@ -24,6 +24,7 @@ public class FilterEvenNumbers {
 
     }
 
+
     //second way java lambdas
     public static int[] findEvenNums2(int[]arr1,int[]arr2){
         IntPredicate isEvenNum = num -> num % 2 == 0;
